@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import UISystem
+import Onboarding
 
 struct ContentView: View {
     var body: some View {
@@ -15,6 +17,8 @@ struct ContentView: View {
                 .foregroundColor(.accentColor)
             
             Text("Hello, world!")
+            
+            Image("onboardingOneImage")
         }
         .padding()
     }
