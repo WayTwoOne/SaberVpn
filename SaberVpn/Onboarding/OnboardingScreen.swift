@@ -9,7 +9,7 @@ import SwiftUI
 import UISystem
 import Coordinator
 
-struct OnboardingView: View {
+struct OnboardingScreen: View {
     @StateObject var viewModel = OnboardingViewModel()
     @EnvironmentObject var coodinator: Coordinator<OnboardingRoute>
     @State private var selection = 0
@@ -24,7 +24,7 @@ struct OnboardingView: View {
                 
                 Group {
                     Text("SABER.VPN")
-                        .foregroundColor(.white)
+                        .foregroundColor(.descriptionTextColor)
                 }
             }
             
@@ -40,7 +40,7 @@ struct OnboardingView: View {
                         ImageView(imageName: item.imageName)
                             
                         
-                        DescriptionView(description: item.description)
+                        DescriptionView(description: item.description, textColor: .descriptionTextColor)
                         
                     }
                     .tag(index)
@@ -74,6 +74,6 @@ struct OnboardingView: View {
 
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView()
+        OnboardingScreen()
     }
 }

@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5C38565E2E258D00000D8D04 /* OnboardingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38565D2E258D00000D8D04 /* OnboardingPath.swift */; };
-		5C3856612E258D99000D8D04 /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856602E258D99000D8D04 /* SubscriptionView.swift */; };
+		5C3856612E258D99000D8D04 /* SubscriptionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856602E258D99000D8D04 /* SubscriptionScreen.swift */; };
 		5C3856632E258DAC000D8D04 /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */; };
 		5C3856652E258DB7000D8D04 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856642E258DB7000D8D04 /* SubscriptionModel.swift */; };
 		5C3856682E2599F8000D8D04 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856672E2599F8000D8D04 /* Color+.swift */; };
 		5C38566A2E25A006000D8D04 /* Geist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C3856692E25A006000D8D04 /* Geist-SemiBold.ttf */; };
+		5C38566D2E25B137000D8D04 /* SubscriptionsGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38566C2E25B137000D8D04 /* SubscriptionsGridView.swift */; };
 		5C3BD1E82E21488B00D7F40E /* SaberVpnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BD1E72E21488B00D7F40E /* SaberVpnApp.swift */; };
 		5C3BD1EA2E21488B00D7F40E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BD1E92E21488B00D7F40E /* ContentView.swift */; };
 		5C3BD1EC2E21488D00D7F40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BD1EB2E21488D00D7F40E /* Assets.xcassets */; };
@@ -21,18 +22,19 @@
 		5C3DB55D2E25395C0002E272 /* UISystem in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3DB55C2E25395C0002E272 /* UISystem */; };
 		5C3DB5602E2539C90002E272 /* Geist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C3DB55F2E2539C90002E272 /* Geist-Medium.ttf */; };
 		5CAC865B2E253C7E00B7EEF3 /* Geist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CAC865A2E253C7E00B7EEF3 /* Geist-Regular.ttf */; };
-		5CAC865F2E25448800B7EEF3 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC865E2E25448800B7EEF3 /* OnboardingView.swift */; };
+		5CAC865F2E25448800B7EEF3 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC865E2E25448800B7EEF3 /* OnboardingScreen.swift */; };
 		5CAC86612E25449800B7EEF3 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC86602E25449800B7EEF3 /* OnboardingViewModel.swift */; };
 		5CAC86642E2544AE00B7EEF3 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC86632E2544AE00B7EEF3 /* OnboardingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5C38565D2E258D00000D8D04 /* OnboardingPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPath.swift; sourceTree = "<group>"; };
-		5C3856602E258D99000D8D04 /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		5C3856602E258D99000D8D04 /* SubscriptionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionScreen.swift; sourceTree = "<group>"; };
 		5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
 		5C3856642E258DB7000D8D04 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
 		5C3856672E2599F8000D8D04 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		5C3856692E25A006000D8D04 /* Geist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-SemiBold.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-SemiBold.ttf"; sourceTree = "<group>"; };
+		5C38566C2E25B137000D8D04 /* SubscriptionsGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsGridView.swift; sourceTree = "<group>"; };
 		5C3BD1E42E21488B00D7F40E /* SaberVpn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaberVpn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3BD1E72E21488B00D7F40E /* SaberVpnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberVpnApp.swift; sourceTree = "<group>"; };
 		5C3BD1E92E21488B00D7F40E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,7 +45,7 @@
 		5C3DB55F2E2539C90002E272 /* Geist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-Medium.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-Medium.ttf"; sourceTree = "<group>"; };
 		5C3DB5612E253A1B0002E272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5CAC865A2E253C7E00B7EEF3 /* Geist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-Regular.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-Regular.ttf"; sourceTree = "<group>"; };
-		5CAC865E2E25448800B7EEF3 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5CAC865E2E25448800B7EEF3 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		5CAC86602E25449800B7EEF3 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		5CAC86632E2544AE00B7EEF3 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,14 +71,15 @@
 			path = Paths;
 			sourceTree = "<group>";
 		};
-		5C38565F2E258D7E000D8D04 /* SubscriptionScreen */ = {
+		5C38565F2E258D7E000D8D04 /* Subscription */ = {
 			isa = PBXGroup;
 			children = (
-				5C3856602E258D99000D8D04 /* SubscriptionView.swift */,
+				5C3856602E258D99000D8D04 /* SubscriptionScreen.swift */,
+				5C38566B2E25B125000D8D04 /* Views */,
 				5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */,
 				5C3856642E258DB7000D8D04 /* SubscriptionModel.swift */,
 			);
-			path = SubscriptionScreen;
+			path = Subscription;
 			sourceTree = "<group>";
 		};
 		5C3856662E2599E4000D8D04 /* Extentions */ = {
@@ -85,6 +88,14 @@
 				5C3856672E2599F8000D8D04 /* Color+.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		5C38566B2E25B125000D8D04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C38566C2E25B137000D8D04 /* SubscriptionsGridView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5C3BD1DB2E21488B00D7F40E = {
@@ -112,8 +123,8 @@
 				5C3BD1E72E21488B00D7F40E /* SaberVpnApp.swift */,
 				5C3BD1E92E21488B00D7F40E /* ContentView.swift */,
 				5C38565C2E258CE8000D8D04 /* Paths */,
-				5CAC865C2E25445D00B7EEF3 /* OnboardingScreen */,
-				5C38565F2E258D7E000D8D04 /* SubscriptionScreen */,
+				5CAC865C2E25445D00B7EEF3 /* Onboarding */,
+				5C38565F2E258D7E000D8D04 /* Subscription */,
 				5C3BD1EB2E21488D00D7F40E /* Assets.xcassets */,
 				5C3DB5612E253A1B0002E272 /* Info.plist */,
 				5C3856662E2599E4000D8D04 /* Extentions */,
@@ -148,14 +159,14 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		5CAC865C2E25445D00B7EEF3 /* OnboardingScreen */ = {
+		5CAC865C2E25445D00B7EEF3 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				5CAC865E2E25448800B7EEF3 /* OnboardingView.swift */,
+				5CAC865E2E25448800B7EEF3 /* OnboardingScreen.swift */,
 				5CAC86602E25449800B7EEF3 /* OnboardingViewModel.swift */,
 				5CAC86632E2544AE00B7EEF3 /* OnboardingModel.swift */,
 			);
-			path = OnboardingScreen;
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,13 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CAC865F2E25448800B7EEF3 /* OnboardingView.swift in Sources */,
+				5CAC865F2E25448800B7EEF3 /* OnboardingScreen.swift in Sources */,
 				5C3856682E2599F8000D8D04 /* Color+.swift in Sources */,
 				5CAC86642E2544AE00B7EEF3 /* OnboardingModel.swift in Sources */,
 				5C3BD1EA2E21488B00D7F40E /* ContentView.swift in Sources */,
 				5C38565E2E258D00000D8D04 /* OnboardingPath.swift in Sources */,
 				5C3BD1E82E21488B00D7F40E /* SaberVpnApp.swift in Sources */,
-				5C3856612E258D99000D8D04 /* SubscriptionView.swift in Sources */,
+				5C38566D2E25B137000D8D04 /* SubscriptionsGridView.swift in Sources */,
+				5C3856612E258D99000D8D04 /* SubscriptionScreen.swift in Sources */,
 				5CAC86612E25449800B7EEF3 /* OnboardingViewModel.swift in Sources */,
 				5C3856652E258DB7000D8D04 /* SubscriptionModel.swift in Sources */,
 				5C3856632E258DAC000D8D04 /* SubscriptionViewModel.swift in Sources */,

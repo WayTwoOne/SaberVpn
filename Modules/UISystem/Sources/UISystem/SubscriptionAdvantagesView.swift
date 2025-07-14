@@ -33,9 +33,10 @@ public struct SubscriptionAdvantagesView: View {
                     .lineSpacing(0.9)
                     .kerning(-0.72)
             }
+            .padding(.horizontal)
             .buttonStyle(.borderedProminent)
         }
-        .frame(width: 226, height: 53)
+        .frame(height: 53)
     }
 }
 

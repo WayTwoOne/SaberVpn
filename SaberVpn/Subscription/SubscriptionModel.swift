@@ -7,21 +7,22 @@
 
 import Foundation
 
-struct HorizonalButtons {
+struct Advantages: Hashable {
+    
     let title: String
     let icon: String
     
-    static func getMockData() -> [HorizonalButtons]{
+    static func getMockData() -> [Advantages]{
         return [
-            HorizonalButtons(
+            Advantages(
                 title: "100+ платных стран",
                 icon: "Gift"
             ),
-            HorizonalButtons(
+            Advantages(
                 title: "Безграничное использование",
                 icon: "Diamond"
             ),
-            HorizonalButtons(
+            Advantages(
                 title: "Отсутствие рекламы",
                 icon: "STOP"
             )
@@ -29,24 +30,25 @@ struct HorizonalButtons {
     }
 }
 
-struct GridButtons {
+struct Subscriptions: Hashable {
+    
     let interval: String
     let cost: String
     let discount: String?
     
-    static func getMockData() -> [GridButtons] {
+    static func getMockData() -> [Subscriptions] {
         return [
-            GridButtons(
+            Subscriptions(
                 interval: "Неделя",
                 cost: "299 ₽, отмена в любое время",
                 discount: nil
             ),
-            GridButtons(
+            Subscriptions(
                 interval: "Месяц",
-                cost: "299 ₽, отмена в любое время",
+                cost: "699 ₽, отмена в любое время",
                 discount: nil
             ),
-            GridButtons(
+            Subscriptions(
                 interval: "Год",
                 cost: "999 ₽, отмена в любое время",
                 discount: "35% SALE"

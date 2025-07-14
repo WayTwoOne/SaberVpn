@@ -21,9 +21,9 @@ enum OnboardingRoute: Routable, Hashable {
     func view(router: Coordinator<OnboardingRoute>) -> some View {
         switch self {
         case .onboarding:
-            OnboardingView()
+            OnboardingScreen()
         case .subscription:
-            SubscriptionView()
+            SubscriptionScreen()
         }
     }
 }
