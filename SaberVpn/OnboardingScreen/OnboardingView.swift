@@ -7,9 +7,11 @@
 
 import SwiftUI
 import UISystem
+import Coordinator
 
 struct OnboardingView: View {
     @StateObject var viewModel = OnboardingViewModel()
+    @EnvironmentObject var coodinator: Coordinator<OnboardingRoute>
     @State private var selection = 0
     
     var body: some View {
@@ -49,13 +51,17 @@ struct OnboardingView: View {
             
             .tabViewStyle(.page(indexDisplayMode: .never))
             
-            ButtonView(
+            OnboardingButtonView(
                 action: {
-                    withAnimation(.easeInOut(duration: 0.3)) {
-                        if selection < viewModel.dataModel.count - 1 {
+                    
+                    if selection < viewModel.dataModel.count - 1 {
+                        withAnimation(.easeInOut(duration: 0.3)) {
                             selection += 1
                         }
+                    } else {
+                        coodinator.presentSheet(.subscription)
                     }
+                    
                 },
                 numberOfPage: viewModel.dataModel[selection].pageNumber,
                 buttontitle: viewModel.dataModel[selection].buttonText,

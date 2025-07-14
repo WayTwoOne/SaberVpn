@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import Coordinator
 
 final class OnboardingViewModel: ObservableObject {
     
-    @Published var dataModel = OnboardingModel.getMockData()
+    let dataModel = OnboardingModel.getMockData()
+    let coordinator = Coordinator<OnboardingRoute>()
+    
+    func goToSubscription() {
+        coordinator.push(.subscription)
+    }
     
 }

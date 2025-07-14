@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct ButtonView: View {
+public struct OnboardingButtonView: View {
     
     public var action: ()-> Void
     public let numberOfPage: Int
@@ -60,7 +60,7 @@ public struct ButtonView: View {
 
 struct ButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonView(
+        OnboardingButtonView(
             action: {},
             numberOfPage: 1,
             buttontitle: "Далее",

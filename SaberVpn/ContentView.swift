@@ -6,17 +6,23 @@
 //
 
 import SwiftUI
-import UISystem
+import Coordinator
 
 struct ContentView: View {
+    
     var body: some View {
+        
+        RoutingView(OnboardingRoute.self) {
             
-        ZStack {
+            ZStack {
+                
+                Color.blackTheme
+                    .ignoresSafeArea()
+                    
+                
+                OnboardingView()
             
-            Color.init("SuperViewColor")
-                .ignoresSafeArea()
-            
-            OnboardingView()
+            }
         }
     }
 }
