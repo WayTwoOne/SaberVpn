@@ -7,20 +7,17 @@
 
 import SwiftUI
 import UISystem
-import Onboarding
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
             
-            Text("Hello, world!")
+        ZStack {
             
-            Image("onboardingOneImage")
+            Color.init("SuperViewColor")
+                .ignoresSafeArea()
+            
+            OnboardingView()
         }
-        .padding()
     }
 }
 
