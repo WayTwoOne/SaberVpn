@@ -11,7 +11,7 @@ import Coordinator
 
 struct OnboardingScreen: View {
     @StateObject var viewModel = OnboardingViewModel()
-    @EnvironmentObject var coodinator: Coordinator<OnboardingRoute>
+    @EnvironmentObject var coordinator: Coordinator<OnboardingRoute>
     @State private var selection = 0
     
     var body: some View {
@@ -35,11 +35,9 @@ struct OnboardingScreen: View {
                     VStack(spacing: 10) {
                         
                         HeaderView(text: item.mainTitle)
-                            .padding(.top, 10)
                         
                         ImageView(imageName: item.imageName)
                             
-                        
                         DescriptionView(description: item.description, textColor: .descriptionTextColor)
                         
                     }
@@ -59,7 +57,7 @@ struct OnboardingScreen: View {
                             selection += 1
                         }
                     } else {
-                        coodinator.presentSheet(.subscription)
+                        coordinator.presentFullScreen(.subscription)
                     }
                     
                 },

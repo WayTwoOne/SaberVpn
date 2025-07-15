@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import Coordinator
 
 final class SubscriptionViewModel: ObservableObject {
+    
+    @EnvironmentObject var coordinator: Coordinator<OnboardingRoute>
     
     let advantages = Advantages.getMockData()
     let subscriptions = Subscriptions.getMockData()

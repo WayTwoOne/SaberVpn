@@ -17,17 +17,14 @@ public struct HeaderView: View {
     }
     
     public var body: some View {
-        
-            
-            VStack {
-                
-                Text(text)
-                    .foregroundColor(.white)
-                    .font(.custom("Geist-Bold", size: 48))
-                    .multilineTextAlignment(.center)
-                    .lineSpacing(2.4)
-                    .kerning(-2.4)
-            }
+ 
+        Text(text)
+            .foregroundColor(.white)
+            .font(.custom("Geist-Bold", size: 48))
+            .multilineTextAlignment(.center)
+            .lineSpacing(2.4)
+            .kerning(-2.4)
+            .minimumScaleFactor(0.5)
     }
 }
 

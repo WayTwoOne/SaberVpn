@@ -22,9 +22,6 @@ public struct RoutingView<Content: View, Destination: Routable>: View {
                     route.view(router: router)
                 }
         }
-        .sheet(item: $router.presentingSheet) { route in
-            route.view(router: router)
-        }
         .fullScreenCover(item: $router.presentingFullScreenCover) { route in
             route.view(router: router)
         }

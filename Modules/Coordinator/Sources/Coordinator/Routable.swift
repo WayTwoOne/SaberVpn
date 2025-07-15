@@ -15,8 +15,8 @@ public protocol Routable: Hashable, Identifiable {
 
 public enum NavigationType {
     case push
-    case sheet
     case fullScreenCover
+    case sheet
     
 }
 

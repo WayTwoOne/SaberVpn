@@ -18,7 +18,7 @@ struct OnboardingModel: Hashable {
     static func getMockData() -> [OnboardingModel] {
         return [
             OnboardingModel(
-                mainTitle: "Добро пожаловать!",
+                mainTitle: "Добро\n пожаловать!",
                 imageName: "onboardingOneImage",
                 description: "Мы сделали удобный VPN-сервис для вашего комфорта без лишних отвлечений",
                 pageNumber: 1,
@@ -26,7 +26,7 @@ struct OnboardingModel: Hashable {
                 iconName: "VectorStart"
             ),
             OnboardingModel(
-                mainTitle: "Надежное подключение",
+                mainTitle: "Надежное\n подключение",
                 imageName: "onboardingTwoImage",
                 description: "Мы защитили ваше соединение от внешнего мира, чтобы вы чувствовали себя спокойно",
                 pageNumber: 2,
@@ -34,7 +34,7 @@ struct OnboardingModel: Hashable {
                 iconName: "VectorStart"
             ),
             OnboardingModel(
-                mainTitle: "Отсутствие рекламы",
+                mainTitle: "Отсутствие\n рекламы",
                 imageName: "onboardingThreeImage",
                 description: "Мы полностью убрали постороннюю рекламу, чтобы ничто не отвлекало вас от важных дел",
                 pageNumber: 3,

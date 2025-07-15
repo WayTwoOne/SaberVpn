@@ -8,15 +8,20 @@
 import SwiftUI
 import UISystem
 
-struct CustomGridTest: View {
+struct SubscribeGridView: View {
     
     @ObservedObject var viewModel: SubscriptionViewModel
     @State private var pressedButton: Int? = nil
     
+    let width = UIScreen.main.bounds.width
+    let heigth = UIScreen.main.bounds.height
+    
     var body: some View {
         VStack {
             HStack(alignment: .center, spacing: 10) {
+                
                 ForEach(viewModel.subscriptions.prefix(2), id: \.self) { i in
+                    
                     SubscriptionIntervalButton(
                         buttonColor: .subscriptionButtonColor,
                         buttonPressedColor: viewModel.changeColorOfPressedButton(index: i.id, pressedButton: pressedButton),
@@ -26,13 +31,15 @@ struct CustomGridTest: View {
                         action: {
                             pressedButton = i.id
                         },
-                        selected: pressedButton)
-                    
+                        selected: pressedButton
+                    )
+                    .frame(height: heigth * 0.19)
                 }
             }
             
             
             ForEach(viewModel.subscriptions.suffix(1), id: \.self) { i in
+                
                 SubscriptionIntervalButton(
                     buttonColor: .subscriptionButtonColor,
                     buttonPressedColor: viewModel.changeColorOfPressedButton(index: i.id, pressedButton: pressedButton),
@@ -42,16 +49,18 @@ struct CustomGridTest: View {
                     action: {
                         pressedButton = i.id
                     },
-                    selected: pressedButton
+                    selected: pressedButton,
+                    discount: i.discount
                 )
-                
+                .frame(height: heigth * 0.19)
             }
         }
+        .padding(.all)
     }
 }
 
-struct CustomGridTest_Previews: PreviewProvider {
+struct SubscribeGridView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomGridTest(viewModel: SubscriptionViewModel())
+        SubscribeGridView(viewModel: SubscriptionViewModel())
     }
 }

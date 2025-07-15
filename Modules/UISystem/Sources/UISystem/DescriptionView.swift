@@ -12,6 +12,8 @@ public struct DescriptionView: View {
     public let description: String
     public let textColor: Color
     
+    internal let width = UIScreen.main.bounds.width
+    
     public init(description: String, textColor: Color) {
         self.description = description
         self.textColor = textColor
@@ -22,9 +24,11 @@ public struct DescriptionView: View {
             .font(.custom("Geister-Regular", size: 18))
             .multilineTextAlignment(.center)
             .foregroundColor(textColor)
-            .frame(width: UIScreen.main.bounds.width * 0.85)
+            .frame(width: width * 0.9)
+            .minimumScaleFactor(0.5)
             .kerning(-0.72)
             .lineSpacing(10.8)
+            .minimumScaleFactor(0.5)
     }
 }
 

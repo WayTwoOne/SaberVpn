@@ -12,9 +12,5 @@ final class OnboardingViewModel: ObservableObject {
     
     let dataModel = OnboardingModel.getMockData()
     let coordinator = Coordinator<OnboardingRoute>()
-    
-    func goToSubscription() {
-        coordinator.push(.subscription)
-    }
-    
+
 }

@@ -13,6 +13,8 @@ public struct SubscriptionAdvantagesView: View {
     public let title: String
     public let rectangleColor: Color
     
+    internal let heigth = UIScreen.main.bounds.height
+    
     public init( icon: String, title: String, rectangleColor: Color) {
         self.icon = icon
         self.title = title
@@ -36,7 +38,7 @@ public struct SubscriptionAdvantagesView: View {
             .padding(.horizontal)
             .buttonStyle(.borderedProminent)
         }
-        .frame(height: 53)
+        .frame(height: heigth * 0.07)
     }
 }
 

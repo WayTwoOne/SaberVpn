@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C1D39FF2E2641F300AFA211 /* CustomGridTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D39FE2E2641F300AFA211 /* CustomGridTest.swift */; };
-		5C1D3A012E265D2200AFA211 /* SubscribeButtonsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D3A002E265D2200AFA211 /* SubscribeButtonsGrid.swift */; };
+		5C07D7BC2E26C0B600ED3EB8 /* TextWithLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C07D7BB2E26C0B600ED3EB8 /* TextWithLink.swift */; };
+		5C07D7BE2E26C26100ED3EB8 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C07D7BD2E26C26100ED3EB8 /* PrivacyPolicyView.swift */; };
+		5C07D7C02E26C26E00ED3EB8 /* TermsOfUseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C07D7BF2E26C26E00ED3EB8 /* TermsOfUseView.swift */; };
+		5C1D39FF2E2641F300AFA211 /* SubscribeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D39FE2E2641F300AFA211 /* SubscribeGridView.swift */; };
+		5C1D3A032E267BB700AFA211 /* TryProButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D3A022E267BB700AFA211 /* TryProButton.swift */; };
+		5C1D3A052E267D7400AFA211 /* PrivacyPolicyAndTermsOfUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D3A042E267D7400AFA211 /* PrivacyPolicyAndTermsOfUse.swift */; };
 		5C38565E2E258D00000D8D04 /* OnboardingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38565D2E258D00000D8D04 /* OnboardingPath.swift */; };
 		5C3856612E258D99000D8D04 /* SubscriptionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856602E258D99000D8D04 /* SubscriptionScreen.swift */; };
 		5C3856632E258DAC000D8D04 /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */; };
@@ -29,8 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C1D39FE2E2641F300AFA211 /* CustomGridTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridTest.swift; sourceTree = "<group>"; };
-		5C1D3A002E265D2200AFA211 /* SubscribeButtonsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeButtonsGrid.swift; sourceTree = "<group>"; };
+		5C07D7BB2E26C0B600ED3EB8 /* TextWithLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithLink.swift; sourceTree = "<group>"; };
+		5C07D7BD2E26C26100ED3EB8 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		5C07D7BF2E26C26E00ED3EB8 /* TermsOfUseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfUseView.swift; sourceTree = "<group>"; };
+		5C1D39FE2E2641F300AFA211 /* SubscribeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeGridView.swift; sourceTree = "<group>"; };
+		5C1D3A022E267BB700AFA211 /* TryProButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryProButton.swift; sourceTree = "<group>"; };
+		5C1D3A042E267D7400AFA211 /* PrivacyPolicyAndTermsOfUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyAndTermsOfUse.swift; sourceTree = "<group>"; };
 		5C38565D2E258D00000D8D04 /* OnboardingPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPath.swift; sourceTree = "<group>"; };
 		5C3856602E258D99000D8D04 /* SubscriptionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionScreen.swift; sourceTree = "<group>"; };
 		5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
@@ -95,8 +103,12 @@
 		5C38566B2E25B125000D8D04 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5C1D39FE2E2641F300AFA211 /* CustomGridTest.swift */,
-				5C1D3A002E265D2200AFA211 /* SubscribeButtonsGrid.swift */,
+				5C1D39FE2E2641F300AFA211 /* SubscribeGridView.swift */,
+				5C1D3A022E267BB700AFA211 /* TryProButton.swift */,
+				5C1D3A042E267D7400AFA211 /* PrivacyPolicyAndTermsOfUse.swift */,
+				5C07D7BB2E26C0B600ED3EB8 /* TextWithLink.swift */,
+				5C07D7BD2E26C26100ED3EB8 /* PrivacyPolicyView.swift */,
+				5C07D7BF2E26C26E00ED3EB8 /* TermsOfUseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,16 +261,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C1D3A012E265D2200AFA211 /* SubscribeButtonsGrid.swift in Sources */,
-				5C1D39FF2E2641F300AFA211 /* CustomGridTest.swift in Sources */,
+				5C1D39FF2E2641F300AFA211 /* SubscribeGridView.swift in Sources */,
+				5C1D3A032E267BB700AFA211 /* TryProButton.swift in Sources */,
 				5CAC865F2E25448800B7EEF3 /* OnboardingScreen.swift in Sources */,
+				5C07D7BE2E26C26100ED3EB8 /* PrivacyPolicyView.swift in Sources */,
 				5C3856682E2599F8000D8D04 /* Color+.swift in Sources */,
 				5CAC86642E2544AE00B7EEF3 /* OnboardingModel.swift in Sources */,
 				5C3BD1EA2E21488B00D7F40E /* ContentView.swift in Sources */,
+				5C07D7C02E26C26E00ED3EB8 /* TermsOfUseView.swift in Sources */,
 				5C38565E2E258D00000D8D04 /* OnboardingPath.swift in Sources */,
 				5C3BD1E82E21488B00D7F40E /* SaberVpnApp.swift in Sources */,
+				5C07D7BC2E26C0B600ED3EB8 /* TextWithLink.swift in Sources */,
 				5C3856612E258D99000D8D04 /* SubscriptionScreen.swift in Sources */,
 				5CAC86612E25449800B7EEF3 /* OnboardingViewModel.swift in Sources */,
+				5C1D3A052E267D7400AFA211 /* PrivacyPolicyAndTermsOfUse.swift in Sources */,
 				5C3856652E258DB7000D8D04 /* SubscriptionModel.swift in Sources */,
 				5C3856632E258DAC000D8D04 /* SubscriptionViewModel.swift in Sources */,
 			);

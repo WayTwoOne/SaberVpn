@@ -14,6 +14,9 @@ public struct OnboardingButtonView: View {
     public let buttontitle: String
     public let icon: String
     
+    internal let width = UIScreen.main.bounds.width
+    internal let heigth = UIScreen.main.bounds.height
+    
     public init(action: @escaping () -> Void, numberOfPage: Int, buttontitle: String, icon: String) {
         self.action = action
         self.numberOfPage = numberOfPage
@@ -49,10 +52,15 @@ public struct OnboardingButtonView: View {
                     
                     Image(icon)
                         .resizable()
-                        .frame(width: 28, height: 24, alignment: .center)
+                        .foregroundColor(.white)
+                        .frame(
+                            width: numberOfPage <= 2 ? 15.3 : 10.5,
+                            height: 10.5,
+                            alignment: .center
+                        )
                 }
             }
-            .frame(width: UIScreen.main.bounds.width * 0.9, height: 50, alignment: .center)
+            .frame(width: width * 0.9, height: heigth * 0.06, alignment: .center)
         }
         .buttonStyle(.borderedProminent)
     }

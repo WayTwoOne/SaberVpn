@@ -11,14 +11,18 @@ public struct ImageView: View {
     
     public let imageName: String
     
+    internal let width = UIScreen.main.bounds.width
+    internal let heigth = UIScreen.main.bounds.height
+    
     public init(imageName: String) {
         self.imageName = imageName
     }
     
     public var body: some View {
+        
         Image(imageName)
             .resizable()
-            .frame(width: 390, height: 394)
+            .frame(width: width * 0.9, height: heigth * 0.5)
     }
 }
 

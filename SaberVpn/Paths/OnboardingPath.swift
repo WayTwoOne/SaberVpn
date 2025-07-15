@@ -12,9 +12,11 @@ enum OnboardingRoute: Routable, Hashable {
     
     case onboarding
     case subscription
+    case privatePolicy
+    case termsOfIser
     
     var navigationType: NavigationType {
-        return .sheet
+        return .fullScreenCover
     }
     
     @ViewBuilder
@@ -24,6 +26,10 @@ enum OnboardingRoute: Routable, Hashable {
             OnboardingScreen()
         case .subscription:
             SubscriptionScreen()
+        case .privatePolicy:
+            PrivacyPolicyView()
+        case.termsOfIser:
+            TermsOfUseView()
         }
     }
 }
