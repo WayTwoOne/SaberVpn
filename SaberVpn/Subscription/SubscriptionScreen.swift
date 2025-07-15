@@ -53,6 +53,7 @@ struct SubscriptionScreen: View {
                     }
                 }
                 
+                SubscribeButtonsGrid(viewModel: viewModel)
                 
             }
         }

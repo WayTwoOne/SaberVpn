@@ -32,6 +32,7 @@ struct Advantages: Hashable {
 
 struct Subscriptions: Hashable {
     
+    let id: Int
     let interval: String
     let cost: String
     let discount: String?
@@ -39,16 +40,19 @@ struct Subscriptions: Hashable {
     static func getMockData() -> [Subscriptions] {
         return [
             Subscriptions(
+                id: 0,
                 interval: "Неделя",
                 cost: "299 ₽, отмена в любое время",
                 discount: nil
             ),
             Subscriptions(
+                id: 1,
                 interval: "Месяц",
                 cost: "699 ₽, отмена в любое время",
                 discount: nil
             ),
             Subscriptions(
+                id: 2,
                 interval: "Год",
                 cost: "999 ₽, отмена в любое время",
                 discount: "35% SALE"
