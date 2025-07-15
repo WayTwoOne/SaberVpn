@@ -2,13 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>SaberVpn.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Geist-Medium.ttf</string>
+		<string>Geist-Regular.ttf</string>
+		<string>Geist-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>
