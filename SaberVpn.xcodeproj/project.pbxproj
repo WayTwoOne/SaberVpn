@@ -17,15 +17,15 @@
 		5C3856632E258DAC000D8D04 /* SubscriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */; };
 		5C3856652E258DB7000D8D04 /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856642E258DB7000D8D04 /* SubscriptionModel.swift */; };
 		5C3856682E2599F8000D8D04 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3856672E2599F8000D8D04 /* Color+.swift */; };
-		5C38566A2E25A006000D8D04 /* Geist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C3856692E25A006000D8D04 /* Geist-SemiBold.ttf */; };
 		5C3BD1E82E21488B00D7F40E /* SaberVpnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BD1E72E21488B00D7F40E /* SaberVpnApp.swift */; };
 		5C3BD1EA2E21488B00D7F40E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3BD1E92E21488B00D7F40E /* ContentView.swift */; };
 		5C3BD1EC2E21488D00D7F40E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BD1EB2E21488D00D7F40E /* Assets.xcassets */; };
 		5C3BD1EF2E21488D00D7F40E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3BD1EE2E21488D00D7F40E /* Preview Assets.xcassets */; };
 		5C3BD1F92E214B6200D7F40E /* Coordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3BD1F82E214B6200D7F40E /* Coordinator */; };
 		5C3DB55D2E25395C0002E272 /* UISystem in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3DB55C2E25395C0002E272 /* UISystem */; };
-		5C3DB5602E2539C90002E272 /* Geist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C3DB55F2E2539C90002E272 /* Geist-Medium.ttf */; };
-		5CAC865B2E253C7E00B7EEF3 /* Geist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CAC865A2E253C7E00B7EEF3 /* Geist-Regular.ttf */; };
+		5C49C3632E27A95C000A03D5 /* Geist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C49C3622E27A95C000A03D5 /* Geist-Medium.ttf */; };
+		5C49C3652E27A961000A03D5 /* Geist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C49C3642E27A961000A03D5 /* Geist-Regular.ttf */; };
+		5C49C3672E27A975000A03D5 /* Geist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C49C3662E27A975000A03D5 /* Geist-SemiBold.ttf */; };
 		5CAC865F2E25448800B7EEF3 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC865E2E25448800B7EEF3 /* OnboardingScreen.swift */; };
 		5CAC86612E25449800B7EEF3 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC86602E25449800B7EEF3 /* OnboardingViewModel.swift */; };
 		5CAC86642E2544AE00B7EEF3 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAC86632E2544AE00B7EEF3 /* OnboardingModel.swift */; };
@@ -42,7 +42,6 @@
 		5C3856622E258DAC000D8D04 /* SubscriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewModel.swift; sourceTree = "<group>"; };
 		5C3856642E258DB7000D8D04 /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
 		5C3856672E2599F8000D8D04 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
-		5C3856692E25A006000D8D04 /* Geist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-SemiBold.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-SemiBold.ttf"; sourceTree = "<group>"; };
 		5C3BD1E42E21488B00D7F40E /* SaberVpn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaberVpn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3BD1E72E21488B00D7F40E /* SaberVpnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaberVpnApp.swift; sourceTree = "<group>"; };
 		5C3BD1E92E21488B00D7F40E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,9 +49,10 @@
 		5C3BD1EE2E21488D00D7F40E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C3BD1F52E214AFC00D7F40E /* Coordinator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Coordinator; path = Modules/Coordinator; sourceTree = "<group>"; };
 		5C3BD1F62E214B1E00D7F40E /* UISystem */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UISystem; path = Modules/UISystem; sourceTree = "<group>"; };
-		5C3DB55F2E2539C90002E272 /* Geist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-Medium.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-Medium.ttf"; sourceTree = "<group>"; };
 		5C3DB5612E253A1B0002E272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		5CAC865A2E253C7E00B7EEF3 /* Geist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-Regular.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-Regular.ttf"; sourceTree = "<group>"; };
+		5C49C3622E27A95C000A03D5 /* Geist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-Medium.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-Medium.ttf"; sourceTree = "<group>"; };
+		5C49C3642E27A961000A03D5 /* Geist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-Regular.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-Regular.ttf"; sourceTree = "<group>"; };
+		5C49C3662E27A975000A03D5 /* Geist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Geist-SemiBold.ttf"; path = "../../../../../../var/folders/mv/fc3_pjs56f179z4dsx5z5mcc0000gn/T/ru.keepcoder.Telegram/Geist-SemiBold.ttf"; sourceTree = "<group>"; };
 		5CAC865E2E25448800B7EEF3 /* OnboardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 		5CAC86602E25449800B7EEF3 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		5CAC86632E2544AE00B7EEF3 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
@@ -164,9 +164,9 @@
 		5C3DB55E2E2539AE0002E272 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				5C3856692E25A006000D8D04 /* Geist-SemiBold.ttf */,
-				5CAC865A2E253C7E00B7EEF3 /* Geist-Regular.ttf */,
-				5C3DB55F2E2539C90002E272 /* Geist-Medium.ttf */,
+				5C49C3622E27A95C000A03D5 /* Geist-Medium.ttf */,
+				5C49C3662E27A975000A03D5 /* Geist-SemiBold.ttf */,
+				5C49C3642E27A961000A03D5 /* Geist-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -243,9 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CAC865B2E253C7E00B7EEF3 /* Geist-Regular.ttf in Resources */,
-				5C38566A2E25A006000D8D04 /* Geist-SemiBold.ttf in Resources */,
-				5C3DB5602E2539C90002E272 /* Geist-Medium.ttf in Resources */,
+				5C49C3652E27A961000A03D5 /* Geist-Regular.ttf in Resources */,
+				5C49C3672E27A975000A03D5 /* Geist-SemiBold.ttf in Resources */,
+				5C49C3632E27A95C000A03D5 /* Geist-Medium.ttf in Resources */,
 				5C3BD1EF2E21488D00D7F40E /* Preview Assets.xcassets in Resources */,
 				5C3BD1EC2E21488D00D7F40E /* Assets.xcassets in Resources */,
 			);

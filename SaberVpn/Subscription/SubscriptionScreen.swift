@@ -21,7 +21,7 @@ struct SubscriptionScreen: View {
             Color.blackTheme
                 .ignoresSafeArea()
             
-            VStack(spacing: 15) {
+            VStack(spacing: 10) {
                 HStack {
                     
                     

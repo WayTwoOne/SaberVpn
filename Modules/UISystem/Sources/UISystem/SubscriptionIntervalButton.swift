@@ -68,14 +68,14 @@ public struct SubscriptionIntervalButton: View {
                 .padding(.trailing, 30)
 
                     
-                    VStack(alignment: .leading, spacing: 10) {
+                    VStack(alignment: .leading, spacing: 5) {
                         
                         Text(interval)
                             .foregroundColor(.white)
                             .font(.custom("Geist-SemiBold", size: 20))
                             .lineSpacing(12)
                             .kerning(-0.4)
-                            .minimumScaleFactor(0.5)
+                            .minimumScaleFactor(0.4)
                         
                         Text(description)
                             .foregroundColor(descriptionTextColor)
@@ -84,7 +84,7 @@ public struct SubscriptionIntervalButton: View {
                             .lineSpacing(7.2)
                             .kerning(1.4)
                             .multilineTextAlignment(.leading)
-                            .minimumScaleFactor(0.5)
+                            .minimumScaleFactor(0.4)
                     }
                 
                 .padding(.leading)
